@@ -1,0 +1,6 @@
+title       Guchi\nHistory
+level       Level
+setting     Setting
+volum       Volum
+Engl        English
+Rus     Russian
