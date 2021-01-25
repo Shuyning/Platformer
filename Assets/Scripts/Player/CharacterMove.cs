@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    Rigidbody2D rb;
+    public static Rigidbody2D rb;
     Collider2D[] groundCollisions;
     SpriteRenderer sprite;
     HealthPoint healthPoint;
@@ -261,12 +261,10 @@ public class CharacterMove : MonoBehaviour
         if(!grounded && other.gameObject.layer == 8)
         {
             move = false;
-            Debug.Log("move = false");
         }
         else
         {
             move = true;
-            Debug.Log("move = true");
         }
 
         if(other.gameObject.tag.Equals("Wall"))

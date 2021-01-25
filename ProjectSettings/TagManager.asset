@@ -15,6 +15,7 @@ TagManager:
   - Boss
   - EnemyAI
   - Wall
+  - Floor
   layers:
   - Default
   - TransparentFX
