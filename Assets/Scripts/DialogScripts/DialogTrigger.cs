@@ -8,9 +8,9 @@ public class DialogTrigger : MonoBehaviour
     public GameObject dialogPanel;
     DialogSystem dialogSystem;
 
-    private void Start() 
+    private void Start()
     {
-
+        dialogSystem = dialogPanel.GetComponent<DialogSystem>();
     }
     private void Update() 
     {

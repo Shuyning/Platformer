@@ -139,6 +139,7 @@ MonoBehaviour:
   extraJumps: 0
   canFlash: 1
   isWall: 0
+  canJump: 0
 --- !u!114 &176276869
 MonoBehaviour:
   m_ObjectHideFlags: 0
